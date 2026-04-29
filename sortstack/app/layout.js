@@ -2,13 +2,14 @@ export const metadata = {
   title: "Sort Stack",
   description: "Your daily card-sorting task ritual",
   manifest: "/manifest.json",
+};
+
+export const viewport = {
   themeColor: "#0f0e0c",
-  viewport: {
-    width: "device-width",
-    initialScale: 1,
-    maximumScale: 1,
-    userScalable: false,
-  },
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
 };
 
 export default function RootLayout({ children }) {
